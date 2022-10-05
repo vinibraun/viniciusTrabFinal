@@ -16,11 +16,12 @@ public class Banco {
     private long id;
 
     @NotNull
+    private boolean guardaEmBanco;
+
+    //os valores abaixo podem ficar em branco, já que o usuário também pode ter o dinheiro guardado em casa
     private String nomeBanco;
 
-    @NotNull
     private long numeroConta;
 
-    @NotNull
     private long agencia;
 }

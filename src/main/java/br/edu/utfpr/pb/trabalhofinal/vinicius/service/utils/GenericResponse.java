@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.trabalhofinal.vinicius.utils;
+package br.edu.utfpr.pb.trabalhofinal.vinicius.service.utils;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.trabalhofinal.vinicius.controller;
 
-import br.edu.utfpr.pb.trabalhofinal.vinicius.utils.GenericResponse;
+import br.edu.utfpr.pb.trabalhofinal.vinicius.service.utils.GenericResponse;
 import br.edu.utfpr.pb.trabalhofinal.vinicius.model.Usuario;
 import br.edu.utfpr.pb.trabalhofinal.vinicius.service.UserService;
 import org.springframework.web.bind.annotation.*;

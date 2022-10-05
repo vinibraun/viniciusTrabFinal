@@ -8,18 +8,12 @@ import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("bancos")
+@RestController //retorna o objeto e os dados do objeto são gravados diretamente na resposta HTTP
+@RequestMapping("bancos") //é usada para mapear URLs como www
 public class BancoController extends CrudController<Banco, BancoDto, Long>{
 
     private final BancoService bancoService;
     private final ModelMapper modelMapper;
-
-//    public BancoController(Class<Banco> typeClass, Class<BancoDto> typeDtoClass, BancoService bancoService, ModelMapper modelMapper) {
-//        super(typeClass, typeDtoClass);
-//        this.bancoService = bancoService;
-//        this.modelMapper = modelMapper;
-//    }
 
     public BancoController(BancoService bancoService, ModelMapper modelMapper) {
         super(Banco.class, BancoDto.class);

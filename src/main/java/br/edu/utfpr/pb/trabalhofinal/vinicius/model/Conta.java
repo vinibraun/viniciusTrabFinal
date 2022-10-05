@@ -2,10 +2,7 @@ package br.edu.utfpr.pb.trabalhofinal.vinicius.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Data
@@ -18,6 +15,7 @@ public class Conta {
 
     @ManyToOne
     @NotNull
+    @JoinColumn(name = "usuario_id")
     private Usuario usuario;
 
     @ManyToOne

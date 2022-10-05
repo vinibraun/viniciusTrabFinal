@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.trabalhofinal.vinicius.validation;
+package br.edu.utfpr.pb.trabalhofinal.vinicius.service.validation;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UniqueUsername {
-    String message() default "{br.edu.utfpr.pb.pw25s.username.Unique}";
+    String message() default "{br.edu.utfpr.pb.trabalhofinal.username.Unique}";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }

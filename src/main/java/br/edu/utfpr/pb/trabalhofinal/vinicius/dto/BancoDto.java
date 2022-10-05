@@ -14,11 +14,11 @@ public class BancoDto {
     private long id;
 
     @NotNull
+    private boolean guardaEmBanco;
+
     private String nomeBanco;
 
-    @NotNull
     private long numeroConta;
 
-    @NotNull
     private long agencia;
 }

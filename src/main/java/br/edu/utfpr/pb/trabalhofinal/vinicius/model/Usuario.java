@@ -1,6 +1,6 @@
 package br.edu.utfpr.pb.trabalhofinal.vinicius.model;
 
-import br.edu.utfpr.pb.trabalhofinal.vinicius.validation.UniqueUsername;
+import br.edu.utfpr.pb.trabalhofinal.vinicius.service.validation.UniqueUsername;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
