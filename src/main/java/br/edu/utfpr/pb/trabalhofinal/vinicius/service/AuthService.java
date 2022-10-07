@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AuthService implements UserDetailsService {
+public class AuthService implements UserDetailsService { //compara com as hashes do banco para realizar o login
 
     private final UserRepository userRepository;
 

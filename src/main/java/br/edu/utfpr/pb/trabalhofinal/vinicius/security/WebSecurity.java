@@ -38,6 +38,7 @@ public class WebSecurity {
         authenticationManagerBuilder.userDetailsService(authService)
                 .passwordEncoder( passwordEncoder() );
         AuthenticationManager authenticationManager = authenticationManagerBuilder.build();
+        http.headers().frameOptions().disable();
 
         http.csrf().disable()
                 .exceptionHandling()
@@ -47,6 +48,7 @@ public class WebSecurity {
 
                 .antMatchers(HttpMethod.POST, "/users/**").permitAll()
                 .antMatchers( "/error/**").permitAll()
+                .antMatchers( "/h2-console/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .authenticationManager(authenticationManager)

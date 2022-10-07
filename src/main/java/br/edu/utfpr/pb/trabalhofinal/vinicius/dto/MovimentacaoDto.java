@@ -2,9 +2,12 @@ package br.edu.utfpr.pb.trabalhofinal.vinicius.dto;
 
 import br.edu.utfpr.pb.trabalhofinal.vinicius.model.Conta;
 import br.edu.utfpr.pb.trabalhofinal.vinicius.model.TipoMovimentacao;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
@@ -23,13 +26,15 @@ public class MovimentacaoDto {
     private Double valor;
 
     @NotNull
-    private LocalDateTime dataVencimento;
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate dataVencimento;
 
     @NotNull
     private Double valorPago;
 
     @NotNull
-    private LocalDateTime dataPagamento;
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate dataPagamento;
 
     @NotNull
     private String categoria;

@@ -23,5 +23,5 @@ public class Conta {
     private Banco banco;
 
     @NotNull
-    private String tipoConta;
+    private String tipoConta; //{"tipoConta":"aa", "banco" : {"id":1}}
 }

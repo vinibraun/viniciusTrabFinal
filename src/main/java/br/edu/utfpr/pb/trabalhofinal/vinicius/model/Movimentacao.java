@@ -1,12 +1,15 @@
 package br.edu.utfpr.pb.trabalhofinal.vinicius.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
@@ -25,13 +28,15 @@ public class Movimentacao {
     private Double valor;
 
     @NotNull
-    private LocalDateTime dataVencimento;
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate dataVencimento;
 
     @NotNull
     private Double valorPago;
 
     @NotNull
-    private LocalDateTime dataPagamento;
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate dataPagamento;
 
     @NotNull
     private String categoria;
