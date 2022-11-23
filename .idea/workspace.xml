@@ -4,74 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e59910-f9eb-4bf7-8644-c1a199f784ee" name="Changes" comment="Modificações finais - parte 1 do trabalho final">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/back/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/main/java/br/edu/utfpr/pb/pw25s/iocdi/IocDiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/main/java/br/edu/utfpr/pb/pw25s/iocdi/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/main/java/br/edu/utfpr/pb/pw25s/iocdi/reflection/TestReflection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/main/java/br/edu/utfpr/pb/pw25s/iocdi/repository/CategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Trab Final React/pw25s-2022-2/ioc-di/src/test/java/br/edu/utfpr/pb/pw25s/iocdi/IocDiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/back/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/back/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/ViniciusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/ViniciusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/BancoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/BancoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/ContaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/ContaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/CrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/CrudController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/MovimentacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/MovimentacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/TipoMovimentacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/TipoMovimentacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/BancoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/BancoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/ContaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/ContaDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/MovimentacaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/MovimentacaoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/TipoMovimentacaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/dto/TipoMovimentacaoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ApiError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ErrorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/error/ExceptionHandlerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Movimentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Movimentacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/TipoMovimentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/TipoMovimentacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/BancoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/BancoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/ContaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/ContaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/MovimentacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/MovimentacaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/TipoMovimentacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/TipoMovimentacaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/EntryPointUnauthorizedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/EntryPointUnauthorizedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/JWTAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/security/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/BancoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/BancoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/ContaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/ContaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/CrudService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/MovimentacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/MovimentacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/TipoMovimentacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/TipoMovimentacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/BancoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/BancoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/ContaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/ContaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/CrudServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/CrudServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/MovimentacaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/MovimentacaoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/TipoMovimentacaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl/TipoMovimentacaoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/utils/GenericResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/utils/GenericResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/validation/UniqueUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/validation/UniqueUsername.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/validation/UniqueUsernameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/validation/UniqueUsernameValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/edu/utfpr/pb/trabalhofinal/vinicius/ViniciusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/test/java/br/edu/utfpr/pb/trabalhofinal/vinicius/ViniciusApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="f0e59910-f9eb-4bf7-8644-c1a199f784ee" name="Changes" comment="Criação front" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/pb/trabalhofinal/vinicius/service/impl" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -187,7 +121,7 @@
       <workItem from="1665079803974" duration="5063000" />
       <workItem from="1665099745725" duration="4403000" />
       <workItem from="1666626674987" duration="25000" />
-      <workItem from="1669233648874" duration="631000" />
+      <workItem from="1669233648874" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="Criação trab final">
       <created>1662685601951</created>
@@ -217,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665104156693</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criação front">
+      <created>1669234448666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669234448666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +180,7 @@
     <MESSAGE value="Criação: Model, Controller, Service, Repository, Dto" />
     <MESSAGE value="Criação: Error, Security, Impl" />
     <MESSAGE value="Modificações finais - parte 1 do trabalho final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificações finais - parte 1 do trabalho final" />
+    <MESSAGE value="Criação front" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação front" />
   </component>
 </project>
