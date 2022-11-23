@@ -4,11 +4,9 @@ import br.edu.utfpr.pb.trabalhofinal.vinicius.model.Conta;
 import br.edu.utfpr.pb.trabalhofinal.vinicius.model.TipoMovimentacao;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
