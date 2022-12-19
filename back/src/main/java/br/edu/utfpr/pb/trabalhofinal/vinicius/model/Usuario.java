@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Transient;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
@@ -25,20 +26,27 @@ public class Usuario implements UserDetails {
     private long id;
 
     @UniqueUsername
+    @NotBlank
     @NotNull(message = "{br.edu.utfpr.pb.trabalhofinal.username}") //?
     @Size(min = 4, max = 255)
     private String username;
 
     @NotNull
+    @NotBlank
+    @Size(min = 10, max = 40)
+    @Pattern(regexp = "^(.+)@(.+)$")
     private String email;
 
     @NotNull
-    private long fone;
+    @NotBlank
+    private String telefone;
 
     @NotNull
+    @NotBlank
     private String displayName;
 
     @NotNull
+    @NotBlank
     @Size(min = 6, max = 254)
     @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$")
     private String password;

@@ -1,7 +1,6 @@
 package br.edu.utfpr.pb.trabalhofinal.vinicius.dto;
 
 
-import br.edu.utfpr.pb.trabalhofinal.vinicius.model.Banco;
 import br.edu.utfpr.pb.trabalhofinal.vinicius.model.Usuario;
 import lombok.*;
 
@@ -17,10 +16,10 @@ public class ContaDto {
     private long id;
 
     @NotNull
-    private Usuario usuario;
+    private String numeroConta;
 
     @NotNull
-    private Banco banco;
+    private String banco;
 
     @NotNull
     private String tipoConta;

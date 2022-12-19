@@ -13,14 +13,11 @@ public class Conta {
     @GeneratedValue
     private long id;
 
-    @ManyToOne
     @NotNull
-    @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private String numeroConta;
 
-    @ManyToOne
     @NotNull
-    private Banco banco;
+    private String banco;
 
     @NotNull
     private String tipoConta; //{"tipoConta":"aa", "banco" : {"id":1}}

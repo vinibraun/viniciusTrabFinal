@@ -1,12 +1,8 @@
 package br.edu.utfpr.pb.trabalhofinal.vinicius.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
@@ -18,31 +14,28 @@ public class Movimentacao {
     @GeneratedValue
     private long id; //diferença de long e Long?
 
-    @ManyToOne
-    @NotNull
+    @OneToOne
+    //@NotNull
     private Conta conta;
 
-    @NotNull
+    //@NotNull
     private Double valor;
 
-    @NotNull
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    //@NotNull
     private LocalDate dataVencimento;
 
-    @NotNull
+    //@NotNull
     private Double valorPago;
 
-    @NotNull
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    //@NotNull
     private LocalDate dataPagamento;
 
-    @NotNull
-    private String categoria;
+    private String tipoMovimentacao;
 
     @NotNull
     private String descricao;
 
-    @NotNull
-    @ManyToOne
-    private TipoMovimentacao tipoMovimentacao;
+    //@NotNull
+    @OneToOne
+    private Categoria categoria;
 }

@@ -42,7 +42,9 @@ public class WebSecurity {
 
         http.csrf().disable()
                 .exceptionHandling()
-                    .authenticationEntryPoint(authenticationEntryPoint)
+                .authenticationEntryPoint(authenticationEntryPoint)
+                .and()
+                .cors()
                 .and()
                 .authorizeRequests()
 
